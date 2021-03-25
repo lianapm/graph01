@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "161402138"
+  },
+  "text": {
+    "more": "This Following graph is showing the user network of the biggest connected component which consist nodes with the highest In-Degree and Eigenvector Centrality score.",
+    "intro": "node edge",
+    "title": "Top Users Network"
+  },
+  "legend": {
+    "edgeLabel": "connection",
+    "colorLabel": "component class",
+    "nodeLabel": "user"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "color",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": true,
+    "imageAttribute": "Label"
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#eee",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 15
+    },
+    "graphProperties": {
+      "maxEdgeSize": 3,
+      "minEdgeSize": 0.8,
+      "minNodeSize": 0.8,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
